@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(31, 11, 43);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    height: 60px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.navbar li a{
+  color: white;
+  text-decoration: none;
+}
+/* HOVER EFFECT */
+
+.navbar a:hover {
+    color: rgb(167, 0, 167);
+}
+
+.nav-right {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+
+.nav-right a {
+    text-decoration: none;
+    line-height: 2.5em;
+}
+
+.logo {
+    height: 40px;
+}
+
+
+footer {
+    font-size: 14px;
+    line-height: 3;
+    background: #999;
+    text-align: center;
+  }
+
+  #lab_social_icon_footer {
+    background-color: #dedede;
+    padding-top: 10px;
+  }
+  
+  #lab_social_icon_footer a {
+    color: #333;
+  }
+  
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  
+  #lab_social_icon_footer #social-fb:hover {
+    color: rgb(137, 4, 155);
+  }
+  
+  #lab_social_icon_footer #social-tw:hover {
+    color: rgb(137, 4, 155);
+  }
+  
+  #lab_social_icon_footer #social-gp:hover {
+    color: rgb(137, 4, 155);
+  }
+  
+  #lab_social_icon_footer #social-em:hover {
+    color: rgb(137, 4, 155);
+  }
+
+  /* FORM */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Submit button */
+  input[type=submit] {
+    background-color: #8e04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(167, 0, 167);
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    padding: 100px 350px;
+  }
+
+  .container form {
+      background-color: #fafafa;
+      padding: 50px;
+      border-radius: 3px;
+      box-shadow: 5px 5px rgb(167, 0, 167);
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .container {
+      padding: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .container {
+      padding: 100px 100px;
+    }
+  }
+  
+  .misca {
+    display: flex;
+    justify-content: flex-end;
+  }
